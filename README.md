@@ -12,7 +12,7 @@
 
 ### 20% upscale
 
-![20%up](src/20%.png)
+![20percent](src/20percent.png)
 
 `cd 20%upScale`
 
