@@ -1,6 +1,7 @@
-## 1.install ffmpeg
+## 1.install Go % ffmpeg
 
-`choco install ffmpeg`
+[Install Go](https://go.dev/doc/install){:target="\_blank"}
+[Install ffmpeg](https://ffmpeg.org/download.html){:target="\_blank"}
 
 ## 2.select scale & Move directory
 
