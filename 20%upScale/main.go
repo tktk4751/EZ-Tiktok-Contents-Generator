@@ -13,8 +13,8 @@ func main() {
 	inputFile := "src/input/input.mp4"
 	outputFileName := "output_20%upscale_" + time.Now().Format("20060102150405") + ".mp4"
 	outputFile := filepath.Join("src/output", outputFileName)
-	backgroundColor := "2f2f2f"
-	text := "今日のハイライト"
+	backgroundColor := "2f2f2f" //Feel free to change the color code
+	text := "今日のハイライト"          //Feel free to change text
 	zoomFactor := 1.2
 	err := resizeAndAddText(inputFile, outputFile, text, backgroundColor, zoomFactor)
 	if err != nil {

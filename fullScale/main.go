@@ -13,8 +13,8 @@ func main() {
 	inputFile := "src/input/input.mp4"
 	outputFileName := "output_fullscale_" + time.Now().Format("20060102150405") + ".mp4"
 	outputFile := filepath.Join("src/output", outputFileName)
-	backgroundColor := "2f2f2f"
-	text := "今日のハイライト"
+	backgroundColor := "2f2f2f" //Feel free to change the color code
+	text := "今日のハイライト"          //Feel free to change text
 	zoomFactor := 1.2
 	err := resizeAndAddText(inputFile, outputFile, text, backgroundColor, zoomFactor)
 	if err != nil {
@@ -32,13 +32,6 @@ func resizeAndAddText(inputFile, outputFile, text, backgroundColor string, zoomF
 	shadowColor := "black@0.5"
 	shadowXOffset := 3
 	shadowYOffset := 3
-
-	// scaleRatio := 608 / float64(1920) * zoomFactor
-	// scaledWidth := int(1080 * scaleRatio)
-
-	// scaleRatio := zoomFactor
-	// scaledWidth := int(1920 * scaleRatio)
-	// scaledHeight := int(1080 * scaleRatio)
 
 	ffprobeCmd := exec.Command(
 		"ffprobe",
