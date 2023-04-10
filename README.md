@@ -1,4 +1,4 @@
-## 1.install Go % ffmpeg
+## 1.install Go & ffmpeg
 
 [Install Go](https://go.dev/doc/install)
 
