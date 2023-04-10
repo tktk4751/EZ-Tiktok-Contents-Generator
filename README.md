@@ -1,7 +1,8 @@
 ## 1.install Go % ffmpeg
 
-[Install Go](https://go.dev/doc/install){:target="\_blank"}
-[Install ffmpeg](https://ffmpeg.org/download.html){:target="\_blank"}
+[Install Go](https://go.dev/doc/install)
+
+[Install ffmpeg](https://ffmpeg.org/download.html)
 
 ## 2.select scale & Move directory
 
